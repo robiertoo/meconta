@@ -1,0 +1,216 @@
+.livros{
+background-image: url('imagens/livros.jpg');
+background-repeat: no-repeat;
+background-size:100%;
+background-position:;
+}
+
+.Infantil{
+background-image: url('imagens/infantil.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.Fantasia{
+background-image: url('imagens/fantasia.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.HQsEMangas{
+background-image: url('imagens/hqs.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:;
+		
+}
+.Contos{
+background-image: url('imagens/conto.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:;
+}
+.Poesia{
+	background-image: url('imagens/poesia.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;	
+}
+.Educativo{
+	background-image: url('imagens/educativo.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.Musical{
+	background-image: url('imagens/musical.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.Pensamentos{
+	background-image: url('imagens/pensa.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.Suspense{
+	background-image: url('imagens/susp.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+.Outros{
+	background-image: url('imagens/outro.jpg');
+background-repeat: no-repeat;
+
+background-size:100%;
+background-position:center;
+}
+
+.well {
+   background-color: rgba(0,0,0,0.6);
+   border-color:rgba(0,0,0,0.6);
+   color:#dbdbdb;
+   max-height:;
+
+}
+
+.fundo {
+  
+   
+	background-color:#f4efd2;
+
+}
+
+.branco {
+  
+   
+	background-color:#d0d3d8;
+
+}
+
+
+.papel{
+background-image: url('imagens/caderno.jpg');
+background-repeat: repeat;
+background-size:300%;
+background-position:center;
+}
+.papelb{
+/*background-image: url('imagens/papelb.jpg');
+background-repeat: repeat;
+background-size:300%;
+background-position:center;*/
+background-color:#efe8bf;
+border-style:inset;
+border-width:4px;
+border-color:#d8cd8a;
+}
+.direita{
+	position:absolute;
+	right:15%;
+}
+.esquerda{
+	position:absolute;
+	left:15%;
+}
+.vermelho{
+	color:red;
+}
+.cinza{
+	color:gray;
+}
+
+.papelh{
+background-color:white;
+border-color:red;
+font-size:14px;
+/*font-family: "Times New Roman", Times, serif;*/
+}
+
+.border{
+border-style:solid;
+border-width:1px;
+border-color:gray;
+}
+
+
+.fundo{
+	/*background-image:url('imagens/pardo.jpg');
+	background-repeat: repeat;
+	background-size:150%;*/
+	background-color:#f4efd2;
+}
+div.oi{
+	margin-right:auto;
+	margin-left:auto;
+	height:50px;	
+}
+.jumbotron1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: inherit;
+    background-color: #eee;
+}
+
+p.meio{
+	line-height:50px;
+	font-size:17px;
+	margin-top:1px;
+	
+}
+
+a:hover{
+	color:gray;
+}
+
+.qq {
+	
+   background-color: rgba(0,0,0,0.6);
+   border-color:rgba(0,0,0,0.6);
+   color:#dbdbdb;
+   margin-left:30%;
+   margin-right:30%;
+   margin-top:10%;
+   margin-bottom:10%;
+
+}
+
+.goo{
+	margin: 10px;
+	padding-top: 10%;
+	list-style: none;
+	width: 300px;
+	color:#535559;
+	left:15%;
+	
+	
+	background-color:#efe8bf;
+border-style:outset;
+border-width:4px;
+border-color:#d8cd8a;
+	
+}
+
+.marrom{
+	background-color:#7a6d55;
+	border-color:#7a6d55;
+	
+}
+.marrom:hover{
+	background-color:#99896c;
+	border-color:#99896c;
+}
+.teste{
+	background-color:black;
+}

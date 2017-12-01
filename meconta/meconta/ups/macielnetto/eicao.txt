@@ -1,0 +1,71 @@
+Introdução
+
+Não é segredo para ninguém que as tecnologias estão avançando cada vez mais a passos largos. Observamos a tecnologia em todos os âmbitos de nossas vidas, porém também vemos com as mas diferentes pessoas. Desde a criança mais nova, até o senhor mais idoso. Este é o alcance da tecnologia.
+Algumas pessoas gostam de contar histórias, já outras preferem ouví-las. Pensando nisso, foi pensado em criar uma maneira de explorar essas ideias, essas histórias. Juntando a tecnologia com a necessidade de se criar uma ferramenta para publicação de histórias, surgiu a ideia da criação de um portal que atendesse estes requisitos. Portal este capaz de compartilhar histórias nos seus mais diversos tipos, sendo histórias escritas, poesias, contos, como também em áudio, podcasts, musicas, em vídeos, e também em imagens, como no caso de tirinhas, hqs e mangás, enfim, todos os formatos que uma história possa ser contada.
+
+Fundamentação Teórica - Tecnologia
+
+Segundo o minidicionário aurélio, "Conjunto de conhecimentos, especialmente princípios científicos, que se aplicam a um determinado ramo de atividade". 
+Com base nisso, podemos entender que é possível direcionar o uso de tecnologia para determinado fim. Porém, nos primórdios, homens da caverna utilizavam seus conhecimentos e tecnologia para caça e sobrevivência. 
+Porém o tempo se passou e estes conhecimentos dos homens apenas ganhou mais formas e mais requintes, e hoje podemos ver o uso de tecnologia nas mais diversas áreas, como saúde, locomoção, estudos, alimentos, etc.
+Assim como pensa Kenski [...].
+
+[...] as tecnologias invadem nossas vidas, ampliam a nossa memória, garantem novas possibilidades de bem-estar e fragilizam as capacidades naturais do ser humano. Somos muito diferentes dos nossos antepassados e nos acostumamos com alguns confortos tecnológicos- água encanada, luz elétrica, fogão, sapatos, telefone – que nem podemos imaginar como seria viver sem eles (KENSKI, 2007, p.19).
+
+Fundamentação Teórica - Internet
+
+Dentro dessa ideia central de grandes tecnologias, uma magnifíca se destaca: A internet.
+Surgida na década de 60 no Departamento de Defesa dos Estados Unidos para facilitar a comunicação entre militares, a Internet ganhou popularidade em todo o mundo, sendo, hoje em dia, uma das maiores formas de se compartilhar e receber conhecimentos e informação com o mundo todo.
+
+Assim como pensa Kalinke [...]
+Os avanços tecnológicos estão sendo utilizados praticamente por todos os ramos do conhecimento. As descobertas são extremamente rápidas e estão a nossa disposição com uma velocidade nunca antes imaginada. A internet, os canais de televisão à cabo e aberta, os recursos de multimídia estão presentes e disponíveis na sociedade. Em contrapartida, a realidade mundial faz com que nossos alunos estejam cada vez mais informados, atualizados, e participantes deste mundo globalizado. (KALINKE 1999, p. 15)
+
+Fundamentação Teórica - Tecnologia e Entretenimento
+Sabendo das inúmeras possibilidades que as tecnologias podem nos proporcionar, surge também maneiras de nos entretermos com elas. Testemunhamos o avanço do rádio, da televisão, e agora testemunhamos a soberania da internet juntamente com smartphones e tablets.
+Segundo o IBGE, no Brasil, estima-se que o número de computadores pessoais a cada 100 domicilios é de 53,51, enquanto o número de usuários que possuem acesso à interneté um pouco maior, obtendo a estimativa de um total de 59,08 a cada 100 habitantes. Com base nisso, podemos observar que grande parte dos brasileiros estão inteirados no quesito tecnologia/ internet.
+A todo momento podemos ver o surgimento de novos aplicativos dedicados não somente a dispositivos móveis, como tablets e smartphones. Provavelmente, a maior plataforma destinada à entretenimento e afins na internet atualmente seja o Youtube, debaixo das asas do grande Google. Segundo o próprio site do Youtube, o portal possui atualmente mais de um bilhão de usuários, que equivalem quase um terço dos usuários da internet e mais da metade das visualizações recebidas no site são feitas justamentes de dispositivos móveis, o que mostra grande engajamento dos usuários à tecnologia presentes na palma de nossas mãos. 
+
+Fundamentação Teórica - Leitura e Escrita
+
+É sabido que saber ler e escrever é de suma importância , pois por meio da leitura é possível se obter conhecimento, crescer intelectualmente, ajudando, assim a construir um ser humano.
+Assim como pensa Martins
+
+Saber ler e escrever, já entre gregos e romanos, significava possuir as bases de uma educação adequada para a vida, educação essa que visava não só ao desenvolvimento das capacidades intelectuais e espirituais, como das aptidões físicas: possibilitando ao cidadão integrar- se efetivamente à sociedade, no caso à dos senhores, dos homens livres. (MARTINS, 1994, p. 22).
+
+por conta disso, torna-se importante estimular a leitura e escrita por partes das pessoas, coisa que o portal deseja também fazer.
+
+Tecnologias Utilizadas
+
+HTML, PHP, CSS, BootStrap, MySQL, XAMPP, Servidor Apache, Google Chrome, phpMyAdmin, Notepad++, JavaScript, jQuery.
+
+Materiais e Metodos
+
+Primeiramente, para se desenvolver o portal, foi levado em consideração outros sites que tem a mesma proposta. A maioria destes sites permitem apenas o envio de textos, o que deixa limitado o tipo de história, algo que foi levado em consideração para o desenvolvimento do portal. Outra grande diferença é a necessidade de se identificar. Na maioria destes sites, sempre é exibido o nome do autor. Por levar em consideração a timidez das pessoas e a vontade de não se mostrar, o Me Conta oferece total discrição na hora da publicação das histórias.
+É importante ressaltar que o intuito do portal é apenas divulgar as histórias e compartilhar. Dentro do portal não existirá qualquer plataforma para auxilio de criação de história: nenhum editor de textos, imagens, afins. Enfim, a ideia principal é a divulgação de histórias.
+
+No desenvolvimento do projeto primeiramente foi levado em consideração o banco de dados. Após isso, foi levantado os requisitos e um mapeamento nas funcionalidades. Depois, foi feito o esqueleto do portal, contendo os formulários e campos necessários. Em seguida foi adicionado o código em PHP e, por fim, uma leve melhora no visual do site foi feita. 
+
+Resultados Esperados
+
+Com o término do projeto é esperado que o mesmo tenha todas as funcionalidades imaginadas funcionais, como cadastro de histórias, visualização das mesmas, comentários, ranqueamento por likes, etc. 
+Além disso, é esperado também que o projeto possa vir a ser usado como referência para ideias similares, servindo como base.
+Por se tratar de um projeto básico, pesquisas acerca de custo de implantação, preço de servidor, teste de trafego de rede e afins não foram realizados. O intuito real é apenas mostrar como é o sistema e as informações que motivaram sua escolha.
+
+Considerações Finais
+Como já foi explorado anteriormente, é importante estimular a leitura e escrita e, por meio destas, a criatividade. Toda forma de incentivo é bem vinda, por isso é válido apresentar novas alternativas que auxiliem isto.
+Por conta disso, é correto afirmar que mais ferramentas como essa são necessárias, e aquelas já desenvolvidas devem ser mais reconhecidas e divulgadas, pois quanto mais possibilidades forem apresentadas, maior a chance de atrair interessados, fazendo, assim, que uma das ideias do projeto seja alcançada: O estimulo da criatividade por meio das histórias.
+
+Referencias
+
+IBGE. Brasil/ Redes. Disponível em: <http://paises.ibge.gov.br/#/pt/pais/brasil/info/redes> Acesso em 15 de fev. 2017.
+
+KALINKE, Marco Aurélio. Para não ser um Professor do Século Passado. Curitiba: Gráfica Expoente, 1999.
+
+KENSKI, V. M. Educação e Tecnologias: O novo ritmo da informação. 2ª edição. Campinas – SP: Papirus, 2007.
+
+MARTINS, M. H. O que é leitura. 19.ed. São Paulo: Brasiliense, 1994, 93 p.
+
+Perguntas
+
+
+Obrigado pela Atenção!!

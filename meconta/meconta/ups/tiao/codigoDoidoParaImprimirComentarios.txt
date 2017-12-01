@@ -1,0 +1,27 @@
+?>
+
+<div class="modal fade" id="abrirModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h1 class="text-center">Comentários</h1>
+      </div>
+      <div class="modal-body text-center">
+        
+        <h2>VEJA!</h2><br><br><br>
+        <?php $dados2=$conecta->query("SELECT texto FROM comentario where id_historia = '".$linha['id_historia']."'");
+        foreach($dados2 as $linha2){
+        ?>
+        
+        <div class="form-group">
+         <?php echo "<p>'".$linha2['texto']."'</p>" ?>
+       </div> 
+       <?php } ?>
+     </div>
+     
+   </div>
+ </div>
+</div>
+
+<?php

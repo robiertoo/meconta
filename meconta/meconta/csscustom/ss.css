@@ -1,0 +1,35 @@
+
+
+.well {
+   background-color: rgba(0,0,0,0.6);
+   border-color:rgba(0,0,0,0.6);
+   color:#dbdbdb;
+
+}
+
+.papel{
+background-image: url('imagens/caderno.jpg');
+background-repeat: repeat;
+background-size:300%;
+background-position:center;
+}
+
+.papelh{
+background-image: url('imagens/caderno.jpg');
+background-repeat: repeat;
+background-size:400%;
+background-position:center;
+font-size:xx-small;
+font-family: "Times New Roman", Times, serif;
+}
+
+.tamFon{
+	font-size:1px;
+}
+
+.fundo{
+	/*background-image:url('imagens/pardo.jpg');
+	background-repeat: repeat;
+	background-size:150%;*/
+	background-color:#f4efd2;
+}
