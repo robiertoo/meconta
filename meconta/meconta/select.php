@@ -1,10 +1,11 @@
 <?php
+
+include 'conexao.php';
+$conexao = new CONEXAO();
     
   
   try{
-    $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	echo 'conectou coroi';
-	$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conecta = $conexao->Conecta();
 	
 	
 	$dados=$conecta->query("select id_usuario, count(*) as total from historia group by id_usuario order by count(id_usuario) desc");

@@ -1,16 +1,14 @@
 <?php
 
+include 'conexao.php';
+$conexao = new CONEXAO();
+
 $id = (int) $_POST["id1"];
 $tipo = addslashes($_POST["tipo1"]);
 $cookie = isset($_COOKIE["votado_1".$id]) ? $_COOKIE["votado_1".$id] : null; 
 // Incluindo arquivo de conexão
 try{
-    $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	//echo 'conectou coroi';
-	$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	
-	
-	
+    $conecta = $conexao->Conecta();
 			 
 			 // Recuperando valores
 

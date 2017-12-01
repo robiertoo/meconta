@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php
 
 require 'default.php';
+include 'conexao.php';
+$conexao = new CONEXAO();
 
 ?>
 <html lang="pt-br">
@@ -49,10 +50,7 @@ $caminho=$_GET['caminho'];
 //echo $caminho;
 
 try{
-$conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-//echo '<br><br><br><br><br><br><br><br><br><br><br><br><br>conectou coroi';
-$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//$dados=$conecta->query("SELECT nClick FROM `historia` WHERE `upload` = '$caminho'");
+$conecta = $conexao->Conecta();
 $dados=$conecta->query("SELECT nClick FROM historia where upload = '".$caminho."'");
 
 //echo "<br><br><br><br><br><br><br><br>";

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
   require 'default.php';
   $idHist=$_GET['id'];

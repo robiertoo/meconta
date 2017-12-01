@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
   require 'default.php';
+  include 'conexao.php';
+  $conexao = new CONEXAO();
   
   //echo'<br><br><br>asdasd';
   
@@ -8,10 +10,7 @@
   $idHistoria = $_POST['textIdHist'];
   
   try{
-  $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	//echo 'conectou coroi';
-	$conecta->exec("set names utf8");
-  $conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $conecta = $conexao->Conecta();
   $dados=$conecta->query("SELECT id_usuario FROM usuario where login = '".$logado."'");
 		     foreach($dados as $linha){
 		       //echo "<h2>".$linha['id_usuario']."<br></h2>";

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php
 
 require 'default.php';
+include 'conexao.php';
+$conexao = new CONEXAO();
 
 ?>
 <html lang="pt-br">
@@ -10,7 +11,7 @@ require 'default.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conte?do deve vir *ap?s* essas tags -->
-    <title>Recebe Usu?rio - Me Conta!</title>
+    <title>Recebe Usuário - Me Conta!</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,13 +59,7 @@ require 'default.php';
   //echo '<br>'.$diretorio;
   
   try{
-    $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	$conecta->exec("set names utf8");
-	//echo 'conectou coroi';
-	
-	$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	//$dados=$conecta->query("SELECT * FROM clientes");
-	
+    $conecta = $conexao->Conecta();	
 	
 	
 	$dados=$conecta->query("SELECT * FROM usuario");
@@ -126,16 +121,9 @@ require 'default.php';
   </div>
 </div>';
 
-
-
 session_start();
 
-
-
-
-$conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-echo 'conectou coroi';
-$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$conecta = $conexao->Conecta();
 $dados=$conecta->query("SELECT * FROM `USUARIO` WHERE `login` = '$login' AND `senha`= '$senha'");
 
 $obj = $dados->fetchObject();
@@ -155,9 +143,6 @@ header('location:login.php');
 }
 
 
-
-	
-	
 	/*echo 'Dados jรก cadastrados: ';
 	foreach($dados as $linha){
 	  echo $linha['nome']. "<br>" . $linha['endereco'] . "<br>" . $linha['cidade'] . "<br>" . $linha['datanasc'];		

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php
 
 require 'default.php';
+include 'conexao.php';
+$conexao = new CONEXAO();
 
 ?>
 <html lang="pt-br">
@@ -67,11 +68,7 @@ $logado = $_SESSION['login'];
     
   echo "<br><br><br><br>";
   try{
-    $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	//echo 'conectou coroi';
-	$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	$conecta->exec("set names utf8");
-	
+    $conecta = $conexao->Conecta();
 	
 	$dados=$conecta->query("select id_usuario from usuario where login ='".$logado."'");
 		     foreach($dados as $linha){

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
 require 'default.php';
@@ -47,7 +46,7 @@ require 'default.php';
 	<p>Bora publicar histórias ou descobrir algumas?</p>
 	<br>
 	<p>Atenciosamente,</p>
-	<p>Administração (<a href="https://www.facebook.com/Robiertoo">RMN</a>)</p>
+	<p>Administração (<a target="_blank" href="https://www.facebook.com/Robiertoo">RMN</a>)</p>
   </div>
 </div>
   

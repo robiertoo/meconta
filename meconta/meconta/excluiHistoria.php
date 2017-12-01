@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php
 
 require 'default.php';
+include 'conexao.php';
+$conexao = new CONEXAO();
 
 ?>
 <html lang="pt-br">
@@ -72,9 +73,7 @@ $historia = $_GET['historia'];
     
   //echo "<br><br><br><br>";
   try{
-    $conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-	//echo 'conectou coroi';
-	$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conecta = $conexao->Conecta();
 	$dados=$conecta->query("delete from historia where upload ='".$historia."'");
 	if(!unlink($historia)){
 		echo"Erro ao deletar '".$historia."'";		

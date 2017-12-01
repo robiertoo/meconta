@@ -1,4 +1,6 @@
 <?php 
+include 'conexao.php';
+$conexao = new CONEXAO();
 
 session_start();
 
@@ -6,11 +8,9 @@ $login = $_POST['login'];
 $senha = $_POST['senha'];
 
 try{
-$conecta = new PDO('mysql:host=127.0.0.1;port=3306;dbname=portal', 'root', '');
-echo 'conectou coroi';
-$conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$conecta = $conexao->Conecta();
 $dados=$conecta->query("SELECT * FROM `USUARIO` WHERE `login` = '$login' AND `senha`= '$senha'");
-$conecta->exec("set names utf8");
+//$conecta->exec("set names utf8");
 
 $obj = $dados->fetchObject();
 
