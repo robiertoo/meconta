@@ -1,7 +1,7 @@
 <?php
-  require 'default.php';
-  $idHist=$_GET['id'];
-  //echo"<br><br><br><br>".$idHist;
+require 'default.php';
+$idHist=$_GET['id'];
+  
 ?>
 <html lang="pt-br">
 <head>
@@ -19,15 +19,7 @@
   
 </head>
 <body class="fundo">
-
-
-
-
-<br>
-
-  
-
-  
+  <br>
   
   <hr>
   <div class="container">
@@ -37,17 +29,15 @@
      <div class="form-group">
       <label for="textComentario" class="control-label"><h3>Comentário</h3></label><br>
       <textarea name="cxComentario" id="cxComentario" form="f_cadastro" rows="4" cols="100" required autofocus></textarea>
-	  <?php
-	   echo '<input name="textIdHist" type="hidden" id="textIdHist" value='.$idHist.' />';
-	  ?>
+      <?php
+      echo '<input name="textIdHist" type="hidden" id="textIdHist" value='.$idHist.' />';
+      ?>
     </div>
-	
-       
+
     <button type="submit" class="btn btn-primary">Enviar</button>
     <button type="reset" class="btn btn-primary">Limpar caixas</button>
   </form>
 </div>
 </div>
-
 </body>
 </html> 

@@ -5,9 +5,6 @@ class CONEXAO{
 	var $host = "127.0.0.1";
 	var $banco = "portal";
 	
-	/*function CONEXAO(){
-		$this->Conecta();
-	}*/
 	
 	function Conecta(){
 		$conecta = new PDO('mysql:host='.$this->host.';port=3306;dbname='.$this->banco.'', $this->usuario, $this->senha);

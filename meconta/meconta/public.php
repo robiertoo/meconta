@@ -1,9 +1,6 @@
 <?php
-
 require 'default.php';
-
 ?>
-
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
@@ -21,45 +18,34 @@ require 'default.php';
   
 </head>
 <body>
-
-
-
  <?php
-
-  //session_start();
-  if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
-  {
+ 
+ if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
+ {
   unset($_SESSION['login']);
   unset($_SESSION['senha']);
   echo '<div  class="modal fade" id=myModal tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
   <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modall" aria-hidden="true">×</button>
-          <h1 class="text-center">Atenção!</h1>
-      </div>
-      <div class="modal-body text-center">
-          
-            <h2>É necessário ter um cadastro ou estar logado para poder publicar aqui!</h2><br><br><br>
-            <div class="form-group">
-              <a href=login.php ><button class="btn btn-primary btn-lg btn-block">Ok, fazer login.</button></a><br>
-              <a href=cadastro.php ><button class="btn btn-primary btn-lg btn-block">Ok, me cadastrar.</button></a>
-              
-            </div>
-          
-      </div>
-      
+  <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modall" aria-hidden="true">×</button>
+  <h1 class="text-center">Atenção!</h1>
+  </div>
+  <div class="modal-body text-center">
+  <h2>É necessário ter um cadastro ou estar logado para poder publicar aqui!</h2><br><br><br>
+  <div class="form-group">
+  <a href=login.php ><button class="btn btn-primary btn-lg btn-block">Ok, fazer login.</button></a><br>
+  <a href=cadastro.php ><button class="btn btn-primary btn-lg btn-block">Ok, me cadastrar.</button></a>
   </div>
   </div>
-</div>'; 
-$logado = "";
+  </div>
+  </div>
+  </div>'; 
+  $logado = "";
 }else{
-
-$logado = $_SESSION['login'];
+  $logado = $_SESSION['login'];
 }
 ?>
-
-
 <br><br>
 <div class="container">
  <div class="jumbotron papelb">
@@ -80,7 +66,7 @@ $logado = $_SESSION['login'];
             <li><input id="textCategoria" name="cxCategoria" type="RADIO" VALUE="Musical" required> Musical</li>
             <li><input id="textCategoria" name="cxCategoria" type="RADIO" VALUE="Pensamentos" required> Pensamentos </li>
             <li><input id="textCategoria" name="cxCategoria" type="RADIO" VALUE="Suspense" required> Suspense</li>
-			<li><input id="textCategoria" name="cxCategoria" type="RADIO" VALUE="Outros" required> Outros </li>
+            <li><input id="textCategoria" name="cxCategoria" type="RADIO" VALUE="Outros" required> Outros </li>
           </div>
         </ul>
       </div> 
@@ -104,21 +90,13 @@ $logado = $_SESSION['login'];
   </form>
 </div>
 </div>
-
-<!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    $(window).load(function(){
-        $('#myModal').modal('show');
-		}
-		);
-  </script>
-
-<?php
-echo "Olá ".$logado;
-?>
-
+  $(window).load(function(){
+    $('#myModal').modal('show');
+  }
+  );
+</script>
 </body>
 </html> 

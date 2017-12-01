@@ -1,7 +1,5 @@
 <?php
-
 require 'default.php';
-
 ?>
 <html lang="pt-br">
 <head>
@@ -19,37 +17,27 @@ require 'default.php';
   
 </head>
 <body class="fundo">
-
-<?php
-  
+  <?php
   
   if($logado){
-	 echo '<div  class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-  <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h1 class="text-center">Atenção!</h1>
-      </div>
-      <div class="modal-body text-center">
-          
-            <h2>Você está logado, então quer dizer que já é cadastrado!</h2><br><br><br>
-            <div class="form-group">
-              <a href=inicio.php ><button class="btn btn-primary btn-lg btn-block">Ok, voltar para a página inicial.</button></a>
-              
-              
-            </div>
-          
-      </div>
-      
-  </div>
-  </div>
-</div>'; 
+    echo '<div  class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h1 class="text-center">Atenção!</h1>
+    </div>
+    <div class="modal-body text-center">
+    <h2>Você está logado, então quer dizer que já é cadastrado!</h2><br><br><br>
+    <div class="form-group">
+    <a href=inicio.php ><button class="btn btn-primary btn-lg btn-block">Ok, voltar para a página inicial.</button></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>'; 
   }
-
-
-?>
- 
+  ?>
   
   <hr>
   <div class="container">
@@ -81,6 +69,5 @@ require 'default.php';
   </form>
 </div>
 </div>
-
 </body>
 </html> 
