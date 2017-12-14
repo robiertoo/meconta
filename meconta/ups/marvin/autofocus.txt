@@ -1,0 +1,6 @@
+required autofocus form
+retirar espaço busca
+
+
+
+select id_usuario, count(*) from historia group by id_usuario

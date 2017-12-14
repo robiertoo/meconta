@@ -1,0 +1,35 @@
+<a href=".$linha['upload']." download>Clique aqui para fazer o download</a>
+
+<a href="click.php?caminho='.$caminho.'" download target="_blank" >Clique aqui para fazer o download</a>
+
+
+
+<script type="text/javascript">
+    $(window).load(function(){
+        $('#myModal').modal('show');
+		});
+		</script>
+
+
+
+class="modal fade" id=myModal
+
+
+
+<script>
+function clickEvent(){
+    fbLikeDump();
+}
+</script>
+<input type="button" value="Dont show this again! " onClick="clickEvent();" />
+
+
+
+`<a href="http://www.microsoft.com" onclick="window.open('http://www.google.com'); window.open('http://www.yahoo.com');">Click Here</a>
+
+
+thisT(){
+			
+			window.open('http://www.google.com')
+			
+		}
